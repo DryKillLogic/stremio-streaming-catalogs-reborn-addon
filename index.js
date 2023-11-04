@@ -420,7 +420,7 @@ app.get('/:configuration/manifest.json', (req, res) => {
 
     // show catalogs for providers
     res.send({
-        id: 'pw.ers.netflix-catalog',
+        id: 'pw.ers.streaming-catalogs-reborn',
         logo: 'https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI',
         version: process.env.npm_package_version,
         name: 'Streaming Catalogs',
