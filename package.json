@@ -1,6 +1,6 @@
 {
-  "name": "stremio-netflix-catalog-reborn-addon",
-  "version": "1.0.8",
+  "name": "stremio-streaming-catalogs-reborn-addon",
+  "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "type": "module",
