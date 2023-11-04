@@ -423,7 +423,7 @@ app.get('/:configuration/manifest.json', (req, res) => {
         id: 'pw.ers.streaming-catalogs-reborn',
         logo: 'https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI',
         version: process.env.npm_package_version,
-        name: 'Streaming Catalogs',
+        name: 'Streaming Catalogs Reborn',
         description: 'Your favourite streaming services!',
         catalogs: catalogs,
         resources: ['catalog'],
@@ -496,10 +496,10 @@ app.get('/manifest.json', function (req, res) {
     });
 
     res.send({
-        id: 'pw.ers.netflix-catalog',
+        id: 'pw.ers.streaming-catalogs-reborn',
         logo: 'https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI',
         version: process.env.npm_package_version,
-        name: 'Streaming Catalogs',
+        name: 'Streaming Catalogs Reborn',
         description: 'Trending movies and series on Netflix, HBO Max, Disney+, Apple TV+ and more. Configure to choose your favourite services.',
         catalogs: [
             {

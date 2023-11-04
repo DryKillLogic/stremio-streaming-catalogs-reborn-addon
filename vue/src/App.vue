@@ -6,7 +6,7 @@
                     <h3>
                         <img src="/stremio.png" alt="Stremio">
                     </h3>
-                    <h1 class="my-3 font-semibold text-4xl">Streaming Catalogs</h1>
+                    <h1 class="my-3 font-semibold text-4xl">Streaming Catalogs Reborn</h1>
                     <p class="pr-3 text-sm opacity-75">Select all your favourite streaming services to add their
                         catalogs to Stremio!</p>
                     <v-button class="mt-8 py-2" @click="openUrl('https://ko-fi.com/rab1t')">
